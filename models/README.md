@@ -1,9 +1,10 @@
 # Models
 
-This project uses YOLOv8 models for face mask detection.
+This folder contains documentation about the models used in this project.
 
-## Pretrained Models
-- `yolov8n.pt` – YOLOv8 Nano pretrained on COCO (used as base model)
+The actual YOLOv8 model files (`.pt` weights) are **not included** because they are large
+and are created automatically when running the training notebook.
 
-## Trained Models (Fine-tuned)
-I fine-tune YOLOv8 on the Kaggle Face Mask Detection dataset.
+Two subfolders will organize the models:
+- `pretrained/` – documentation for the YOLOv8 pretrained weights used
+- `trained/` – documentation for the model trained in this project
