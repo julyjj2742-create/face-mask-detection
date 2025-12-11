@@ -1,7 +1,7 @@
-# face mask detection
-Computer Vision Project - Face Mask Detection
+# Face Mask Detection
+### *Final Project*
 
-**Team Member:** Jaret Sanchez (julyjj2742@gmail.com)
+**Student:** Jaret Sanchez
 
 **ITAI 1378 - Computer Vision & AI**
 
