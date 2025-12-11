@@ -40,7 +40,7 @@ The industries that can potentially benefit include healthcare, security, school
 The project is designed to run in Google Colab.
 
 Use the following to install dependencies:
-```python
+
 pip install ultralytics opencv-python torch torchvision matplotlib pillow
 
 After, open the notebook:
