@@ -35,7 +35,8 @@ Split into training, validation, and testing sets
 Convert annotations into YOLO format if needed
 
 ## System Diagram
-<img width="1714" height="596" alt="image" src="https://github.com/user-attachments/assets/5fcbca34-aa03-406b-924e-755d61cb7435" />
+<img width="1348" height="253" alt="image" src="https://github.com/user-attachments/assets/aac0efb6-0925-4b4f-af1e-9fd5d7deec73" />
+
 
 ## Sucess Metrics
 <img width="1340" height="481" alt="image" src="https://github.com/user-attachments/assets/3d95b845-e3e2-46e0-bc81-bf5e29b563f2" />
