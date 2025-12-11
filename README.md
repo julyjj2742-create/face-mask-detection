@@ -88,5 +88,14 @@ See detailed log: docs/AI_usage_lab.md
 - Using data augmentation to improve incorrect-mask detection
 - Deploying the model for real-time inference
 
-## Acknowledgements
+## Licence
+This project is released under the **MIT License**.  
+You are free to use, modify, and distribute this work with proper attribution.
 
+See the `LICENSE` file for details.
+
+## Acknowledgements
+- Thanks to Professor McManus for her guidance
+- Pre-trained models from Ultralytics
+- Dataset from Kaggle
+- AI assistance from ChatGPT and Gemini
