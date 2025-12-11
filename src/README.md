@@ -10,3 +10,6 @@ All major steps are handled inside the notebook:
 - Model training with YOLOv8
 - Evaluation and metric calculation
 - Prediction visualization
+
+(no separate Python scripts were needed for this
+implementation because the workflow is fully contained in the notebook)
