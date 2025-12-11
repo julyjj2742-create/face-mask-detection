@@ -17,29 +17,49 @@ This issue is important because manual monitoring is prone to human error; autom
 My system will automatically detect if a person is wearing a mask correctly, not wearing a mask, and if the mask is being worn incorrectly.
 Automated face mask detection will improve compliance and safety in public environments.
 
+## Impact
+[Who benefits? How much time/money saved? What's the value?]
+
 ## Technical Approach
 - Technique: Object Detection
 - Model: YOLOv8
 - Framework: PyTorch
+- Key libraries: 
 
-The reason why I chose to use YOLOv8 is because this real-time object detection model is the best option for detecting multiple faces and mask types in one frame.
+## System Architecture
+[Input image/webcam] → [YOLOv8 model interface] → [Gounding boxes + class labels] → [Output image with "mask"/"no mask"/"incorrect mask"]
 
-## Data Plan
+## Dataset
 - Source: Kaggle – Face Mask Detection Dataset
 - Size: ~7,000 labeled images 
-- Labels: With Mask, Without Mask, Incorrectly Worn Mask
+- Classes: With Mask, Without Mask, Incorrectly Worn Mask
+- Split:
+- Preprocessing:
 
-Preparation: 
-Download and verify the dataset
-Split into training, validation, and testing sets
-Convert annotations into YOLO format if needed
+## Installation & Setup
+The project is designed to run in Google Colab.
+Use the following to install dependencies:
+pip install ultralytics opencv-python torch torchvision matplotlib pillow
 
-## System Diagram
-<img width="1348" height="253" alt="image" src="https://github.com/user-attachments/assets/aac0efb6-0925-4b4f-af1e-9fd5d7deec73" />
+After, open the notebook:
+notebooks/Final_Project_FaceMaskDetection.ipynb
+
+Run all cells to perform:
+- Dataset preprocessing
+- YOLOv8 training
+-Model evaluation
+- Prediction visualization
+
+## Performance Metrics
+Results from the validation set:
+
+Metric	Value
+Precision	0.902
+Recall	0.780
+mAP@0.5	0.869
+mAP@0.5:0.95	0.630
 
 
-## Sucess Metrics
-<img width="1340" height="481" alt="image" src="https://github.com/user-attachments/assets/3d95b845-e3e2-46e0-bc81-bf5e29b563f2" />
 
 ## Week-by-week Plan
 <img width="1339" height="706" alt="image" src="https://github.com/user-attachments/assets/b70a9bba-0b78-4f73-9166-92d02aeffccf" />
