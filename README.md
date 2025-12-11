@@ -38,37 +38,30 @@ Automated face mask detection will improve compliance and safety in public envir
 
 ## Installation & Setup
 The project is designed to run in Google Colab.
+
 Use the following to install dependencies:
+
 pip install ultralytics opencv-python torch torchvision matplotlib pillow
 
 After, open the notebook:
+
 notebooks/Final_Project_FaceMaskDetection.ipynb
 
 Run all cells to perform:
 - Dataset preprocessing
 - YOLOv8 training
--Model evaluation
+- Model evaluation
 - Prediction visualization
 
 ## Performance Metrics
 Results from the validation set:
 
-Metric	Value
-Precision	0.902
-Recall	0.780
-mAP@0.5	0.869
-mAP@0.5:0.95	0.630
+Precision: 0.902
+Recall: 0.78
+mAP50: 0.869
+mAP50-95: 0.63
 
-
-
-## Week-by-week Plan
-<img width="1339" height="706" alt="image" src="https://github.com/user-attachments/assets/b70a9bba-0b78-4f73-9166-92d02aeffccf" />
-
-## Challenges & Backup Plans
-<img width="884" height="595" alt="image" src="https://github.com/user-attachments/assets/bc74962a-80f0-4341-b812-3c2a10876e11" />
-
-## Resources Needed
-<img width="1120" height="702" alt="image" src="https://github.com/user-attachments/assets/8831ccf9-cf06-4798-9fa5-3b007081f6f9" />
-
-
+## Sample Predictions
+![maksssksksss516](https://github.com/user-attachments/assets/ca3eaeaa-ec4e-449b-8733-9460e39fa0d7)
+![maksssksksss679](https://github.com/user-attachments/assets/c5954066-3d5a-4a77-b5fe-1b5374f67f85)
 
