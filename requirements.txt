@@ -1,6 +1,8 @@
 ultralytics
 torch
+torchvision
 opencv-python
-matplotlib
 numpy
-pandas
+pillow
+matplotlib
+pyyaml
