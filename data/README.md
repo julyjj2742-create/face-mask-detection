@@ -1,4 +1,4 @@
-# About the Dataset
+# Dataset
 
 **Dataset Name:** Face Mask Detection  
 **Author:** Andrew Mvd  
