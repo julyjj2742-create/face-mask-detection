@@ -1,4 +1,4 @@
-# Documentation Folder
+# Documentation
 
 This folder contains all written documentation related to the Final Project.
 
