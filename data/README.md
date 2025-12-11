@@ -7,6 +7,5 @@ Link: https://www.kaggle.com/datasets/andrewmvd/face-mask-detection
 - 853 images (~7,000 labeled faces)
 - Labels: with_mask, without_mask, mask_weared_incorrect
 
-**Usage in Colab/Drive:**
-- Download in Colab (Kaggle API) or place on Drive.
-- Convert/organize into YOLO format under `data/processed/` (paths referenced by configs).
+The actual dataset is **not stored in this repository** due to size and licensing restrictions.
+All dataset preparation and preprocessing steps are performed in the Jupyter notebook.
