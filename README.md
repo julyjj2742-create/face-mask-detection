@@ -54,6 +54,7 @@ notebooks/Final_Project_FaceMaskDetection.ipynb
 git clone https://github.com/julyjj2742-create/face-mask-detection.git
 cd face-mask-detection
 
+
 2. Install dependencies
 
 pip install -r requirements.txt
