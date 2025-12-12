@@ -34,7 +34,7 @@ The industries that can potentially benefit include healthcare, security, school
 - Size: ~7,000 labeled images 
 - Classes: With Mask, Without Mask, Incorrectly Worn Mask
 - Split: 80% train, 20% val
-- Preprocessing:
+- Preprocessing: resizing, augmentation, normalization
 
 ## Installation & Setup
 The project is designed to run in Google Colab.
