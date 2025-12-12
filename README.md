@@ -52,6 +52,7 @@ Run all cells to perform:
 - YOLOv8 training
 - Model evaluation
 - Prediction visualization
+- Interactive Demo
 
 ## Performance Metrics
 Results from the validation set:
