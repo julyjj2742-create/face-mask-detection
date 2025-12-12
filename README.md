@@ -47,18 +47,6 @@ After, open the notebook:
 
 notebooks/Final_Project_FaceMaskDetection.ipynb
 
-### Run localy
-1. Clone the repository
-
-```bash
-git clone https://github.com/julyjj2742-create/face-mask-detection.git
-cd face-mask-detection
-
-
-2. Install dependencies
-
-pip install -r requirements.txt
-
 Run all cells to perform:
 - Dataset preprocessing
 - YOLOv8 training
