@@ -102,3 +102,10 @@ See the `LICENSE` file for details.
 - Pre-trained models from Ultralytics
 - Dataset from Kaggle
 - AI assistance from ChatGPT and Gemini
+
+## Demo Video
+https://www.youtube.com/watch?v=mUnEXTL-nUY
+
+## Final Presentation Video
+
+
